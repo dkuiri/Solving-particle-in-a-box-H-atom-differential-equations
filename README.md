@@ -10,10 +10,8 @@ The first problem investigates the one-dimensional time-independent Schrödinger
 
 Inside the box, the potential is zero, and the Schrödinger equation is
 
-$$
--\frac{\hbar^2}{2m}
-\frac{d^2\psi}{dx^2}
-=
+$$-\frac{\hbar^2}{2m}
+\frac{d^2\psi}{dx^2}=
 E\psi.
 $$
 
@@ -41,16 +39,13 @@ The hydrogen atom problem is solved numerically using the radial Schrödinger eq
 
 The radial equation is written in terms of the reduced radial wavefunction $u(r)$:
 
-$$
--\frac{\hbar^2}{2m}
-\frac{d^2u}{dr^2}
+$$ -\frac{\hbar^2}{2m} \frac{d^2u}{dr^2}
 +
 \left[
 -\frac{e^2}{4\pi\epsilon_0r}
 +
 \frac{\hbar^2l(l+1)}{2mr^2}
-\right]u
-=
+\right]u =
 Eu.
 $$
 
@@ -154,8 +149,7 @@ Numerical solutions of one-dimensional and two-dimensional diffusion equations a
 The diffusion equation is
 
 $$
-\frac{\partial u}{\partial t}
-=
+\frac{\partial u}{\partial t} =
 \frac{\partial^2u}{\partial x^2}.
 $$
 
@@ -168,8 +162,7 @@ The initial and later distributions are plotted to illustrate the spreading of t
 The two-dimensional diffusion equation is
 
 $$
-\frac{\partial u}{\partial t}
-=
+\frac{\partial u}{\partial t} =
 \frac{\partial^2u}{\partial x^2}
 +
 \frac{\partial^2u}{\partial y^2}.
@@ -202,8 +195,7 @@ The partition function is expressed in terms of the energy levels and temperatur
 The average energy is calculated using
 
 $$
-\langle E\rangle
-=
+\langle E\rangle =
 \frac{
 \sum_i g_i E_i
 \exp(-E_i/k_BT)
